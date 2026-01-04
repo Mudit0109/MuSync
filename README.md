@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/b848aa8d-6e88-403a-9075-0a160d90eefe
 
 
 
-A modern, fully-functional music player built with **Expo & React Native**, inspired by Spotify. Features real-time search, seamless playback across songs/artists/playlists, persistent queue management, and offline download support.
+A modern, fully-functional music player built with **Expo & React Native**, Features real-time search, seamless playback across songs/artists/playlists, persistent queue management, and Background play support.
 
 ---
 
@@ -21,7 +21,7 @@ A modern, fully-functional music player built with **Expo & React Native**, insp
 - ⏱️ **Recently Played** – Auto-saved track history (up to 20 songs)
 - ⬇️ **Track Downloads** – Per-track caching (320 kbps) for offline listening
 - 🎧 **Background Playback** – Continues playing when app is backgrounded
-- 🌙 **Dark Theme** – Ocean blue accents with solid dark surfaces (Spotify-inspired)
+- 🌙 **Dark Theme** – Ocean blue accents with solid dark surfaces .
 - ⚡ **High Performance** – Optimized FlatList rendering (memoized components, batched updates)
 
 ---
@@ -320,7 +320,7 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 |--------|----------|---------|
 | **Pros** | Free, no auth, instant setup | Official, stable, legal |
 | **Cons** | No SLA, may break anytime | OAuth complexity, rate limits |
-| **Choice** | ✅ JioSaavn (for demo) |
+| **Choice** |  JioSaavn (as provided) |
 | **Rationale** | Learning project; use Spotify for production apps |
 
 ### 3. **Per-Track Downloads vs. Full Offline**
@@ -328,7 +328,7 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 |--------|-----------|-------------|
 | **Pros** | Simple UX, no bulk storage | True offline mode |
 | **Cons** | No full offline, manual | Complex sync, storage burden |
-| **Choice** | ✅ Per-Track |
+| **Choice** |  Per-Track |
 | **Rationale** | Balances UX simplicity with practical offline support |
 
 ### 4. **Zustand vs. Redux/MobX**
@@ -337,7 +337,7 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 | **Zustand** | ~2KB | Minimal | Low |
 | **Redux** | ~10KB | High | High |
 | **MobX** | ~15KB | Medium | Medium |
-| **Choice** | ✅ Zustand |
+| **Choice** | Zustand |
 | **Rationale** | Perfect fit for small-to-medium apps with minimal overhead |
 
 ### 5. **Manual "Load More" vs. Infinite Scroll**
@@ -345,7 +345,7 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 |----------|----|----|---|
 | **Manual Button** | Explicit | Better (batched loads) | Lower |
 | **Infinite Scroll** | Seamless | Accidental fetches possible | Higher |
-| **Choice** | ✅ Manual Button |
+| **Choice** | Manual Button |
 | **Rationale** | Clear intent, prevents unnecessary API calls |
 
 ### 6. **Single Queue vs. Multiple Playlists**
@@ -353,15 +353,15 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 |--------|------|--------|
 | **Pros** | Simple mental model | Rich features |
 | **Cons** | Limited flexibility | Complex state |
-| **Choice** | ✅ Single Queue |
+| **Choice** |  Single Queue |
 | **Rationale** | Cleaner for v1; can extend with playlist management later |
 
 ### 7. **Local Storage vs. Cloud Sync**
 | Approach | Setup | User Experience | Cross-Device |
 |----------|-------|---|---|
-| **Local** | None | Instant | ❌ No |
-| **Cloud** | Backend needed | Synced | ✅ Yes |
-| **Choice** | ✅ Local |
+| **Local** | None | Instant |  No |
+| **Cloud** | Backend needed | Synced |  Yes |
+| **Choice** |  Local |
 | **Rationale** | Standalone demo; add Firebase/Supabase for production |
 
 ### 8. **No Automatic Retry Logic**
@@ -394,22 +394,6 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 7. **Manual Download** – No bulk/playlist download; per-track only
 8. **Not Production-Ready** – JioSaavn content is copyrighted; for learning only
 
----
-
-## 🚀 Future Enhancements
-
-- [ ] Spotify Web API integration (official, production-ready)
-- [ ] Playlist creation & management
-- [ ] Search history with auto-suggestions
-- [ ] Lyrics display synced with playback
-- [ ] 10-band equalizer with presets
-- [ ] Gesture controls (swipe to skip, double-tap to like)
-- [ ] Share queue as links
-- [ ] Smart shuffle (genre/mood-based)
-- [ ] Dark/Light theme toggle
-- [ ] Voice search with speech-to-text
-- [ ] Multi-user collaborative queues
-- [ ] Podcast support alongside music
 
 ---
 
