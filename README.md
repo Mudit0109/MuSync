@@ -424,3 +424,4 @@ musicApi.searchSongs(query, pageNum, 20)  // Change 20 to different limit
 - **Built With** – Expo, React Native, TypeScript, Zustand
 
 **Enjoy building and learning! 🎵**
+"# MuSync" 
