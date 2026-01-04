@@ -1,0 +1,42 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+
+# macOS
+.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# Windows system files
+AppData/
+*.tmp
+Thumbs.db
+desktop.ini
+../AppData/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+.gradle/
+android/build/
+android/app/build/
+ios/build/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/

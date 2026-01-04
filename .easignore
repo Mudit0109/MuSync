@@ -1,0 +1,43 @@
+# Exclude Windows system files and directories
+AppData/
+../AppData/
+Local Settings/
+Application Data/
+Cookies/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+My Documents/
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Exclude IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude build outputs
+*.apk
+*.aab
+*.ipa
+android/app/build/
+ios/build/
+.gradle/
+
+# Exclude logs
+*.log
+logs/
+
+# Exclude temp files
+.DS_Store
+.metro-health-check*
+
+# Exclude parent directory references
+../
+../../
+
