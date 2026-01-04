@@ -1,5 +1,13 @@
 # MuSync – React Native Music Player
 
+VIDEO DEMO 
+
+
+
+https://github.com/user-attachments/assets/b848aa8d-6e88-403a-9075-0a160d90eefe
+
+
+
 A modern, fully-functional music player built with **Expo & React Native**, inspired by Spotify. Features real-time search, seamless playback across songs/artists/playlists, persistent queue management, and offline download support.
 
 ---
