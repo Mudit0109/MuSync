@@ -6,6 +6,11 @@ VIDEO DEMO
 
 https://github.com/user-attachments/assets/b848aa8d-6e88-403a-9075-0a160d90eefe
 
+APK FILE LINK:
+
+https://expo.dev/accounts/muditpachs-organization/projects/musync/builds/1dbaf3bc-9ac3-40af-bd4d-e997fc539e82
+
+
 
 
 A modern, fully-functional music player built with **Expo & React Native**, Features real-time search, seamless playback across songs/artists/playlists, persistent queue management, and Background play support.
